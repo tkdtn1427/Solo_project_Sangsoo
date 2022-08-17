@@ -1,0 +1,64 @@
+= 회원 정보 검색
+:sectnums:
+:toc: left
+:toclevels: 4
+:toc-title: Table of Contents
+:source-highlighter: prettify
+
+v1.0.0, 2022.04.08
+
+***
+== MemberController
+=== 회원 검색
+.curl-request
+include::{snippets}/get-members/curl-request.adoc[]
+
+.http-request
+include::{snippets}/get-members/http-request.adoc[]
+
+.http-response
+include::{snippets}/get-members/http-response.adoc[]
+
+.response-body
+include::{snippets}/get-members/response-body.adoc[]
+
+.response-fields
+include::{snippets}/get-members/response-fields.adoc[]
+
+=== 회원 회사 지역별 검색
+.curl-request
+include::{snippets}/get-membersByLocation/curl-request.adoc[]
+
+.http-request
+include::{snippets}/get-membersByLocation/http-request.adoc[]
+
+.http-response
+include::{snippets}/get-membersByLocation/http-response.adoc[]
+
+.path-parameters
+include::{snippets}/get-membersByLocation/path-parameters.adoc[]
+
+.response-body
+include::{snippets}/get-membersByLocation/response-body.adoc[]
+
+.response-fields
+include::{snippets}/get-membersByLocation/response-fields.adoc[]
+
+=== 회원 회사 업종별 검색
+.curl-request
+include::{snippets}/get-membersByType/curl-request.adoc[]
+
+.http-request
+include::{snippets}/get-membersByType/http-request.adoc[]
+
+.http-response
+include::{snippets}/get-membersByType/http-response.adoc[]
+
+.path-parameter
+include::{snippets}/get-membersByType/path-parameters.adoc[]
+
+.response-body
+include::{snippets}/get-membersByType/response-body.adoc[]
+
+.response-fields
+include::{snippets}/get-membersByType/response-fields.adoc[]
